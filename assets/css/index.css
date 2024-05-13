@@ -32,9 +32,9 @@ label:hover {
     display: none;
 }
 
-.luz-container{
+.wally-container{
     grid-area: main;
-    background-image: url('./festival-wheres-waldo.jpg');
+    background-image: url('../imgs/festival-wheres-waldo.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -45,16 +45,16 @@ label:hover {
     position: relative;
 }
 
-.animacion-trigger:checked ~ .luz-container {
+.animacion-trigger:checked ~ .wally-container {
     animation: container 2s forwards;
 }
-.animacion-trigger:checked ~ .luz-container div > img {
+.animacion-trigger:checked ~ .wally-container div > img {
     animation-fill-mode: forwards;
     animation-play-state: paused;
 }
 
 
-.animacion-trigger:not(:checked) ~ .luz-container {
+.animacion-trigger:not(:checked) ~ .wally-container {
     animation: container-off 2s forwards;
 }
 
