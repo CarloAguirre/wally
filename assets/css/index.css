@@ -127,8 +127,8 @@ label:hover {
         filter: brightness(1);
     }
 }
-@media (max-width: 576px){
+@media (max-width: 1200px){
    .wally > img {
-    transform: scale(3.5%);
+    transform: scale(2.3%);
    }
 }
