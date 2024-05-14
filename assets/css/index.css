@@ -34,7 +34,7 @@ label:hover {
 
 .wally-container{
     grid-area: main;
-    background-image: url('../imgs/festival-wheres-waldo.jpg');
+    background-image: url('https://res.cloudinary.com/dezwpnks0/image/upload/v1715650162/festival-wheres-waldo_cngyt6.webp');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -126,4 +126,9 @@ label:hover {
     to {
         filter: brightness(1);
     }
+}
+@media (max-width: 576px){
+   .wally > img {
+    transform: scale(3.5%);
+   }
 }
